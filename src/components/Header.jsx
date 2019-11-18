@@ -1,14 +1,18 @@
 import React from'react'
+import '../Header.css'
+import { NavLink } from 'react-router-dom'
 
 function Header () {
     return(
-        <div>
-            <h1>Etoile</h1>
+        <div className="header-container">
+            <NavLink exact activeClassName='active' to='/'>
+            Etoile
+            </NavLink>
             <nav>
-                <ul className="login-bar">
+                {/* <ul className="login-bar">
                     <li>Login</li>
                     <li>About</li>
-                </ul>
+                </ul> */}
                 <ul className="nav-bar">
                     <li>New</li>
                     <li>Shop</li>

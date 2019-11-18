@@ -1,0 +1,35 @@
+.home {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px; 
+}
+.home .left-container button {
+    background-color: #FF9999;
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 6px;
+    height: 40px;
+    margin-left: 7em;
+}
+.home .left-container h1 {
+    text-align: center;
+}
+.home .left-container img {
+    display: flex;
+}
+.home .right-container img {
+    display: flex; 
+}
+.home .right-container h1 {
+    text-align: center;
+}
+.home .right-container button {
+    background-color: #FF9999;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 6px;
+    height: 40px;
+    margin-left: 7em;
+}

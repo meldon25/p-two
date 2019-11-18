@@ -1,0 +1,25 @@
+.header-container {
+    display: flex;
+    flex-direction: column;
+}
+.header-container .active {
+    text-decoration: none;
+    display: flex;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 34px;
+    justify-content: center;
+    margin-top: 15px;
+}
+/* .header-container .login-bar{
+    list-style-type: none;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+} */
+.header-container .nav-bar{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-inline-end: 4em;
+    font-family: 'Montserrat', sans-serif;
+}
