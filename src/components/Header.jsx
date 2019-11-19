@@ -9,10 +9,13 @@ function Header () {
             Etoile
             </NavLink>
             <nav>
-                {/* <ul className="login-bar">
+            <nav>
+                <ul className="login-bar">
                     <li>Login</li>
                     <li>About</li>
-                </ul> */}
+                </ul>
+                </nav>
+                <nav>
                 <ul className="nav-bar">
                     <li>New</li>
                     <li>Shop</li>
@@ -22,6 +25,7 @@ function Header () {
                     <li>Sale</li>
                     <li>Blog</li>
                 </ul>
+            </nav>
             </nav>
         </div>
     )

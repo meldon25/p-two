@@ -1,4 +1,5 @@
 .footer-container {
+    background-color: #FFCCCC;
     margin-top: 30px;
     display: flex;
     justify-content: space-between;
@@ -11,6 +12,7 @@
 .footer-container .lside-container .leftlist li {
     margin-right: 20px;
     margin-left: 15px;
+    font-family: 'Montserrat', sans-serif;
 }
 .footer-container .copyright-container {
     display: flex;
@@ -18,4 +20,5 @@
 .footer-container .copyright-container .rightlist {
     list-style-type: none;
     margin-right: 20px;
+    font-family: 'Montserrat', sans-serif;
 }

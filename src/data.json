@@ -1,0 +1,64 @@
+{
+
+ "clothing":[
+
+ 
+    {
+      "id": "1",
+      "image": "https://i.imgur.com/6u0HMDy.png?1",
+      "brand": "Eckhaus Latta",
+      "price": 445,
+      "productCategory": "Knitwear"
+    },
+    {
+      "id": "2",
+      "image": "https://i.imgur.com/amsWBtP.png",
+      "brand": "Jil Sander",
+      "price": 1150,
+      "productCategory": "Knitwear"
+    },
+    {
+      "id": "3",
+      "image": "https://i.imgur.com/KWbl6Vj.png",
+      "brand": "Stella McCartney",
+      "price": 960,
+      "productCategory": "Knitwear"
+    },
+    {
+      "id": "4",
+      "image": "https://i.imgur.com/H5HJGex.png",
+      "brand": "Needles",
+      "price": 465,
+      "productCategory": "Knitwear"
+    },
+    {
+      "id": "5",
+      "image": "https://i.imgur.com/Pxfcrge.png",
+      "brand": "Molly Goddard",
+      "price": 950,
+      "productCategory": "Dress"
+    },
+    {
+      "id": "6",
+      "image": "https://i.imgur.com/VTphUPr.png",
+      "brand": "Marni",
+      "price": 1390,
+      "productCategory": "Dress"
+    },
+    {
+      "id": "7",
+      "image": "https://i.imgur.com/gDvF8Fc.png",
+      "brand": "Maison Margiela",
+      "price": 855,
+      "productCategory": "Dress"
+    },
+    {
+      "id": "8",
+      "image": "https://i.imgur.com/5Xc8bPC.png",
+      "brand": "Collina Strada",
+      "price": 475,
+      "productCategory": "Dress"
+    }
+ ]
+
+}
