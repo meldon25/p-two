@@ -1,10 +1,33 @@
 import React from 'react'
+import Product from './Product'
 
-function Products () {
-    return (
-        <div>
-            <h1>Products</h1>
-        </div>
-    )
+class Products extends React.Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+            products: props.product
+        }
+
+    }
+
+    renderProducts = () => {
+
+        console.log(this.props)
+        if (this.props.product.length) {
+            return this.props.product.map((x, index) => {
+                return <Product key={index} product={x}/>
+
+            })
+        }
+    }
+
+    render() {
+        return (
+            <>
+                {this.renderProducts()}
+            </>
+        )
+    }
+
 }
 export default Products

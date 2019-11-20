@@ -1,12 +1,12 @@
-import React from 'react'
+import React, { Component } from 'react'
+import Products from './Products'
 import axios from 'axios'
 
-class Shop extends React.Component {
+class Shop extends Component {
     constructor(props) {
         super(props)
         this.state = {
             products: []
-
         }
     }
     componentDidMount() {
@@ -14,29 +14,17 @@ class Shop extends React.Component {
     }
 
     fetchData = async () => {
-        const clothing = await axios.get('https://5dced59675f9360014c2642c.mockapi.io/clothing')
-        console.log(clothing)
+        const clothes = await axios.get(`https://5dced59675f9360014c2642c.mockapi.io/${this.props.match.params.clothing_name}`)
+
         this.setState({
-            products: clothing.data[0].clothing
+            products: [...clothes.data]
         })
+
     }
     render() {
-        const clothes = this.state.products.map((products, index) => (
-            <React.Fragment key={index}>
-                <div className="shop-container">
-                    <div className="img-container">
-                    <img src={products.image} />
-                    </div>
-                    <div className="description-container">
-                    <h2>{products.brand}</h2>
-                    <h4>{products.price}</h4>
-                    </div>
-                </div>
-
-            </React.Fragment>
-        ))
+        {console.log(this.state.products)}
         return (
-            <div>{ clothes }</div>
+            <Products product={this.state.products} />
         )
 
     }
