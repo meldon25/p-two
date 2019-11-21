@@ -1,0 +1,37 @@
+.shop-container {
+    display: inline-flex;
+    flex-direction: column;
+    margin: 22px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+.shop-container .description-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.shop-container .description-container h2 {
+    font-size: 25px;
+}
+.shop-container .description-container h4 {
+    font-size: 20px;
+    margin-block-end: 21px;
+}
+.shop-container .category-container h4 {
+    margin: 0;
+}
+.shop-container .review-container p {
+    margin: 0;
+}
+form h5 {
+    margin-block-start: 0;
+    margin-block-end: 0.67em;
+}
+.shop-container p {
+    border: 2px solid black;
+    padding: 20px 20px 20px 15px;
+}
+
+
+
+
