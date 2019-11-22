@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
 }
-.header-container .active {
+.header-container a {
     text-decoration: none;
     display: flex;
     position: absolute;
@@ -12,7 +12,7 @@
     justify-content: center;
     margin: 20px 16em;
 }
-.header-container .login-bar{
+.header-container .login-bar {
     list-style-type: none;
     text-decoration: underline;
     display: flex;
@@ -25,10 +25,31 @@
 }
 .header-container .nav-bar{
     list-style-type: none;
-    text-decoration: underline;
     display: flex;
     margin-top: 55px;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-left: 30px;
+    margin-right: 20px;
     margin-inline-end: 4em;
     font-family: 'Montserrat', sans-serif;
+}
+
+
+@media only screen 
+and (max-width: 812px) {
+    .header-container {
+        display: flex;
+    }
+
+    .header-container .active {
+        margin: 28px 9em;
+    }
+
+    .header-container .nav-bar {
+        display: flex;
+    }
+
+    .header-container .nav-bar ul li {
+        margin: 20px;
+    }
 }

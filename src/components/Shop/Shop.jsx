@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import ProductContainer from '../../ProductContainer'
+import ProductContainer from '../Product/ProductContainer'
 import Widget from '../Widget/Widget'
 import axios from 'axios'
 import './Shop.css'
@@ -45,13 +45,10 @@ class Shop extends Component {
         let review = this.state.review && this.state.review
         return (
             <>
-                <ProductContainer product={this.state.products}
+                <ProductContainer 
+                product={this.state.products}
                 />
                 <Widget />
-                {/* <form onSubmit = {this.onSubmit}>
-                    <input type= 'text' onChange={this.onChange}/>
-                    <button>Submit</button>
-                </form> */}
                 {this.state.review.map((listItem) => {
                     return (
                         <p>{listItem}</p>

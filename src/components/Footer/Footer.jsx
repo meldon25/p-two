@@ -17,7 +17,7 @@ function Footer () {
             </div>
         <div className="copyright-container">
             <ul className="rightlist">
-                <li>2019 Etoile</li>
+                <li>© 2019 Étoile</li>
             </ul>
         </div>
         </div>

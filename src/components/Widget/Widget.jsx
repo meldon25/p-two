@@ -8,10 +8,10 @@ class Widget extends React.Component {
     constructor() {
         super()
         this.state = {
-            widget: [],
-            vicinity: ""
+            widget: []
         }
     }
+
     componentDidMount() {
         this.fetchData()
     }
@@ -19,16 +19,15 @@ class Widget extends React.Component {
     fetchData = async () => {
         try {
             const result = await axios.post(`https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=40.742680,-73.983513&radius=1500&type=knitwear&keyword=clothing&key=${GOOG_TOKEN}`)
-            console.log("am i full?", GOOG_TOKEN)
             this.setState(state => ({
                 widget: result.data.results
             }))
         } catch (error) {
             console.log("Error: ", error)
         }
-    };
+    }
+
     render() {
-        console.log("herellooo", this.state.widget)
         const tempWidget =
             this.state.widget[0] && (
                 <div className="widget-container">
@@ -40,7 +39,7 @@ class Widget extends React.Component {
 
         return (
             <>
-                {tempWidget}
+                { tempWidget }
             </>
         )
     }

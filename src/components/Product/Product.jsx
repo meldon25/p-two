@@ -14,7 +14,6 @@ class Product extends Component {
     }
     onSubmit = async (e) => {
         e.preventDefault();
-        console.log('hey look for me!!!!', this.state.products)
             this.setState(state => ({
                 review: [...state.review, state.reviewText]
             }))
@@ -27,7 +26,6 @@ class Product extends Component {
     }
     render() {
         let review = this.state.review && this.state.review
-        { console.log("LOOK AT THIS ONE HERE", this.props) }
         return (
             <>
             <div className="shop-container">
@@ -36,7 +34,7 @@ class Product extends Component {
                 </div>
                 <div className="description-container">
                     <h2>{this.props.product.brand}</h2>
-                    <h4>{this.props.product.price}</h4>
+                    <h4>${this.props.product.price}</h4>
                     </div>
                 <div className="category-container">
                     <h4>{this.props.product.productCategory}</h4>
@@ -55,9 +53,7 @@ class Product extends Component {
                     )
                 })}
             </div>
-                <ProductContainer product={this.props.product}/>
-                {/* <Widget /> */}
-                
+                <ProductContainer product={this.props.product}/> 
             </>
         )
 

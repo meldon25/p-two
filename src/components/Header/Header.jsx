@@ -6,7 +6,7 @@ function Header () {
     return(
         <div className="header-container">
             <NavLink exact activeClassName='active' to='/'>
-            Etoile
+            Étoile
             </NavLink>
             <nav>
             <nav>

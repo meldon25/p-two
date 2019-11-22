@@ -1,10 +1,10 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom'
-import Header from '../../components/Header/Header';
+import Header from '../../components/Header/Header'
 import Shop from '../../components/Shop/Shop'
-import Home from '../../components/Home/Home';
-import Footer from '../../components/Footer/Footer';
-import './App.css';
+import Home from '../../components/Home/Home'
+import Footer from '../../components/Footer/Footer'
+import './App.css'
 
 function App() {
   return (
@@ -23,4 +23,4 @@ function App() {
   );
 }
 
-export default App;
+export default App

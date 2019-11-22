@@ -7,48 +7,48 @@
       "image": "https://i.imgur.com/6u0HMDy.png?1",
       "brand": "Eckhaus Latta",
       "price": 445,
-      "productCategory": "Knitwear",
-      "review":''
+      "productCategory": "Alpaca Sweater - Red/Brown",
+      "review":""
     },
     {
       "id": "2",
       "image": "https://i.imgur.com/amsWBtP.png",
       "brand": "Jil Sander",
       "price": 1150,
-      "productCategory": "Knitwear",
-      "review":''
+      "productCategory": "Asymmetrical Slit Sweater - Oatmeal",
+      "review":""
     },
     {
       "id": "3",
       "image": "https://i.imgur.com/KWbl6Vj.png",
       "brand": "Stella McCartney",
       "price": 960,
-      "productCategory": "Knitwear",
-      "review":''
+      "productCategory": "Fringe Sweater - Cream",
+      "review":""
     },
     {
       "id": "4",
       "image": "https://i.imgur.com/H5HJGex.png",
       "brand": "Needles",
       "price": 465,
-      "productCategory": "Knitwear",
-      "review":''
+      "productCategory": "Polka-Dot Cardigan - Orange/Brown",
+      "review":""
     },
     {
       "id": "5",
       "image": "https://i.imgur.com/Pxfcrge.png",
       "brand": "Molly Goddard",
       "price": 950,
-      "productCategory": "Dress",
-      "review":''
+      "productCategory": "Tami Dress - Purple",
+      "review":""
     },
     {
       "id": "6",
       "image": "https://i.imgur.com/VTphUPr.png",
       "brand": "Marni",
       "price": 1390,
-      "productCategory": "Dress",
-      "review":''
+      "productCategory": "Cocktail Dress - Black/White",
+      "review":""
 
     },
     {
@@ -56,16 +56,16 @@
       "image": "https://i.imgur.com/gDvF8Fc.png",
       "brand": "Maison Margiela",
       "price": 855,
-      "productCategory": "Dress",
-      "review":''
+      "productCategory": "Button-Down Dress - Blue",
+      "review":""
     },
     {
       "id": "8",
       "image": "https://i.imgur.com/5Xc8bPC.png",
       "brand": "Collina Strada",
       "price": 475,
-      "productCategory": "Dress",
-      "review":''
+      "productCategory": "See-You Dress - Black",
+      "review":""
     }
  ]
 
