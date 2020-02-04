@@ -22,13 +22,14 @@ class Shop extends Component {
     }
 
     fetchData = async () => {
-        const clothes = await axios.get(`https://5dced59675f9360014c2642c.mockapi.io/${this.props.match.params.clothing_name}`)
+        // const clothes = await axios.get(`https://5e39e9ca8d7e1300149cd763.mockapi.io/${this.props.match.params.clothing_name}`)
+        const clothes = await axios.get(`https://5e39e9ca8d7e1300149cd763.mockapi.io/products`)
 
         this.setState({
             products: [...clothes.data]
         })
-
     }
+    
     onSubmit = async (e) => {
         e.preventDefault();
             this.setState(state => ({

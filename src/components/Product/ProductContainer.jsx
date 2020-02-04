@@ -1,5 +1,6 @@
 import React from 'react'
 import Product from './Product'
+import data from '../../data.json'
 
 
 class ProductContainer extends React.Component {
