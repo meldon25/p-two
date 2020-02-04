@@ -63,3 +63,10 @@
     margin-left: 7em;
 }
 
+@media only screen 
+and (max-width: 812px) {
+    .home {
+        display: flex;
+    }
+}
+

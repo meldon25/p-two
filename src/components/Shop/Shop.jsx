@@ -51,7 +51,7 @@ class Shop extends Component {
                 <Widget />
                 {this.state.review.map((listItem) => {
                     return (
-                        <p>{listItem}</p>
+                        <p>{ listItem }</p>
                     )
                 })}
             </>

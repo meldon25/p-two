@@ -12,6 +12,7 @@ class Product extends Component {
             review: []
         }
     }
+
     onSubmit = async (e) => {
         e.preventDefault();
             this.setState(state => ({
@@ -24,6 +25,7 @@ class Product extends Component {
             reviewText : e.target.value
         })
     }
+    
     render() {
         let review = this.state.review && this.state.review
         return (

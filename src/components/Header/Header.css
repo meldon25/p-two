@@ -10,7 +10,7 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 34px;
     justify-content: center;
-    margin: 20px 16em;
+    margin: 20px 22.3em;
 }
 .header-container .login-bar {
     list-style-type: none;
@@ -39,6 +39,10 @@
 and (max-width: 812px) {
     .header-container {
         display: flex;
+    }
+
+    .header-container a {
+        margin: 20px 8.7em;
     }
 
     .header-container .active {
