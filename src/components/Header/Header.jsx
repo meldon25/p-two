@@ -18,7 +18,9 @@ function Header() {
             </div>
             <div className="header-nav">
                 <ul className="nav-bar">
+                    <NavLink exact active ClassName='activeshop' to='/shop/knitwear'>
                     <li>Shop</li>
+                    </NavLink>
                     <li>New</li>
                     <li>Collection</li>
                     <li>Sale</li>
