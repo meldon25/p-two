@@ -1,3 +1,4 @@
+/* main product containers */
 .shop-container {
     display: inline-flex;
     flex-direction: column;
@@ -5,17 +6,27 @@
     margin-left: 285px;
     margin-top: 40px;
 }
+
+/* product description */
 .shop-container .description-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
 .shop-container .description-container h2 {
     font-size: 25px;
 }
 .shop-container .description-container h4 {
     font-size: 20px;
     margin-block-end: 21px;
+}
+
+.shop-container p {
+    border: 2px solid black;
+    padding: 15px 20px 15px 10px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
 }
 .shop-container .category-container h4 {
     margin: 0;
@@ -26,12 +37,6 @@
 form h5 {
     margin-block-start: 0;
     margin-block-end: 0.67em;
-}
-.shop-container p {
-    border: 2px solid black;
-    padding: 15px 20px 15px 10px;
-    font-family: 'Montserrat', sans-serif;
-    background-color: white;
 }
 
 

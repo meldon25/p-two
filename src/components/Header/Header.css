@@ -1,33 +1,43 @@
 * {
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
+    list-style-type: none;
     color: black;
 }
 .header-container {
     display: flex;
     flex-direction: column;
 }
+.header-container .nav-bar{
+    display: flex;
+    margin-top: 55px;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-inline-end: 4em;
+}
+
+/* header title */
 .header-container .header-title {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
+.header-container .header-title a {
+    display: flex;
+    position: absolute;
+    font-size: 34px;
+    margin-top: 20px;
+}
+
+/* login */
 .header-container .login-nav {
     display: flex;
     margin-top: 12px;
     margin-left: 76em;
     flex-direction: column;
 }
-.header-container .header-title a {
-    text-decoration: none;
-    display: flex;
-    position: absolute;
-    color: black;
-    font-size: 34px;
-    margin-top: 20px;
-}
 .header-container .login-nav .login-bar {
-    list-style-type: none;
     text-decoration: underline;
     display: flex;
     margin-right: 30px;
@@ -37,16 +47,8 @@
 .header-container .login-bar li {
     margin-right: 45px;
 }
-.header-container .nav-bar{
-    list-style-type: none;
-    display: flex;
-    margin-top: 55px;
-    justify-content: space-around;
-    margin-left: 10px;
-    margin-right: 20px;
-    margin-inline-end: 4em;
-}
 
+/* media queries */
 
 @media only screen 
 and (max-width: 812px) {

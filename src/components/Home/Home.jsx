@@ -12,10 +12,12 @@ function Home () {
         <img src="https://i.imgur.com/5fKChsn.png" alt="clothes"/>
         </div>
         </div>
+        <div className="button-container">
         <h1>Shop New Sweaters</h1>
         <Link to={'/shop/knitwear'}>
         <button>Get the Look</button>
         </Link>
+        </div>
         </div>
         <div className="right-container">
         <div className="img-container">
